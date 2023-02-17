@@ -11,7 +11,7 @@ acf_add_local_field_group(array(
 			'name' => 'youtube',
 			'aria-label' => '',
 			'type' => 'text',
-			'instructions' => 'eks.: myehKk67oc8',
+			'instructions' => 'Indsæt eks.: https://youtu.be/myehKk67oc8',
 			'required' => 0,
 			'conditional_logic' => 0,
 			'wrapper' => array(

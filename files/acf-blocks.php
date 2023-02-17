@@ -14,6 +14,7 @@ function youtube_block() {
             'category'          => 'formatting',
             'icon'              => 'admin-comments',
             'keywords'          => array( 'WEB', 'Youtube' ),
+            'mode'              => 'edit',
         ));
     }
 }
