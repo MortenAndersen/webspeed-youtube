@@ -27,7 +27,7 @@ $iframe_content = '<style>
 <div id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?>" style="width: 100%; box-shadow: 6px 6px 10px hsl(206.5, 0%, 75%); margin: 2rem 0;">
     <div style="position: relative; aspect-ratio: 16 / 9; height: 100%; width: 100%;">
 
-      <iframe style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;" loading="lazy"; srcdoc=" <?php echo htmlentities($iframe_content); ?>" src="https://www.youtube.com/embed/<?php echo $youtubeID ?>" title="<?php the_field('video_titel');?>" frameborder="0" allow="allowfullscreen">
+      <iframe style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;" loading="lazy"; srcdoc=" <?php echo htmlentities($iframe_content); ?>" src="https://www.youtube.com/embed/<?php echo $youtubeID ?>" title="<?php the_field('video_titel');?>" frameborder="0" allow="fullscreen">
       </iframe>
     </div>
   </div>
